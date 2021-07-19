@@ -1,0 +1,46 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.main {
+    border: 1px solid tomato;
+    height: 50em;
+    width: 1440px;
+    display: flex;
+    margin: 2%;
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.data{
+    width: 65%;
+}
+
+.imagen {
+    width: 45%;
+    overflow:hidden;
+}
+
+.inner {
+    padding: 15%;
+}
+h1 {
+    font-size: 5em;
+    border: solid 1px black;
+    width: 5em;
+    font-weight: 300;    
+}
+h1.title2 {
+    font-weight: 600;
+}
+p {
+    font-size: 16px;
+    color: tomato;
+    border: solid 1px black;
+    width: 25em;
+    font-weight: 400;
+}
