@@ -27,20 +27,50 @@
 
 .inner {
     padding: 15%;
+    padding-top: 5%;
 }
+
+.logo {
+    border: 1px solid black;
+    margin-bottom: 15%;
+}
+
 h1 {
+    color: hsl(0, 36%, 70%);
     font-size: 5em;
     border: solid 1px black;
     width: 5em;
-    font-weight: 300;    
+    font-weight: 300;
+    letter-spacing: 12px;    
 }
 h1.title2 {
+    color: black;
     font-weight: 600;
+    
 }
 p {
-    font-size: 16px;
-    color: tomato;
+    font-size: 18px;
+    color: hsl(0, 36%, 70%);
     border: solid 1px black;
-    width: 25em;
+    width: 28em;
     font-weight: 400;
+    padding-top: 8%;
+    margin-bottom: 5%;
+    line-height: 40px; 
+}
+.form {
+    border: 1px solid black;
+    display: flex;
+}
+
+.email {
+    height: 3em;
+    width: 25em;
+}
+
+.boton {
+    background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    height: 3.3em;
+    width: 5em;
+    z-index: 9;
 }
