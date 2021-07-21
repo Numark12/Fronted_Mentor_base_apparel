@@ -2,17 +2,19 @@
      margin: 0;
      padding: 0;
  }
-
+body {
+    background-color: rgb(238, 234, 247);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .main {
-    border: 1px solid tomato;
-    height: 50em;
-    width: 1440px;
+    background-color: aliceblue;
+    height: 40em;
+    width: 1200px;
     display: flex;
     margin: 2%;
-    margin-left: 15%;
+    margin-left: 10%;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -24,53 +26,84 @@
     width: 45%;
     overflow:hidden;
 }
+img {
+    max-width: 100%;
+    max-height: auto;
+}
 
 .inner {
     padding: 15%;
+    padding-left: 20%;
     padding-top: 5%;
 }
 
 .logo {
-    border: 1px solid black;
-    margin-bottom: 15%;
+    margin-bottom: 18%;
 }
 
 h1 {
     color: hsl(0, 36%, 70%);
-    font-size: 5em;
-    border: solid 1px black;
+    font-size: 3.5em;
     width: 5em;
     font-weight: 300;
     letter-spacing: 12px;    
 }
 h1.title2 {
-    color: black;
     font-weight: 600;
+    color: black;
     
 }
 p {
-    font-size: 18px;
+    font-size: 0.9em;
     color: hsl(0, 36%, 70%);
-    border: solid 1px black;
     width: 28em;
     font-weight: 400;
-    padding-top: 8%;
-    margin-bottom: 5%;
-    line-height: 40px; 
+    padding-top: 4%;
+    margin-bottom: 8%;
+    line-height: 30px; 
 }
 .form {
-    border: 1px solid black;
     display: flex;
 }
 
 .email {
-    height: 3em;
-    width: 25em;
+    height: 3.5em;
+    width: 26em;
+    border: 0.5px solid lightgray;
+    border-radius: 30px;
+
+}
+
+::placeholder { 
+    text-indent: 20px;
+    color: lightgray;
+    font-family: 'Josefin Sans', sans-serif;  
+  }
+
+  input[type=email] {
+    text-indent: 20px;
+   font-family: 'Josefin Sans', sans-serif;  
+  }
+
+  input:focus { 
+    outline: none;
+    border-color: hsl(311, 44%, 88%);
+    box-shadow: 0 0 10px hsl(0, 36%, 70%);;
 }
 
 .boton {
-    background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-    height: 3.3em;
-    width: 5em;
-    z-index: 9;
+    background: linear-gradient(90deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border: none;
+    height: 3.6em;
+    width: 6.5em;
+    border-radius: 30px;
+    position:absolute;
+    margin-left: 20em;
+    transition: 0.3s
+}
+
+.boton:hover {
+    background: linear-gradient(90deg, hsl(0, 80%, 86%), hsl(0, 75%, 73%));
+    transform: scale(1.1);
+    filter: alpha(opacity=30)
 }
