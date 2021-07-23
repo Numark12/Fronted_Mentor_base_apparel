@@ -67,7 +67,9 @@ p {
     margin-bottom: 8%;
     line-height: 30px; 
 }
-
+.inner > p {
+    margin-top: 5%;
+}
 .attribution a { 
     color: hsl(228, 45%, 44%);
     text-decoration: none;
@@ -145,6 +147,7 @@ input:focus:invalid {
         margin-left: 20%;
         height: 45em;
         width: 320px;
+        margin-bottom: 0%;
     }
     .imagen {
         display: none;
@@ -158,9 +161,12 @@ input:focus:invalid {
     }
     .logo_mobile {
         display: flex;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 10%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        margin-left: 15%;
+    }
+    .logo_img {
+        width: 5em;
     }
 
     .inner {
@@ -186,29 +192,39 @@ input:focus:invalid {
     text-align: center;
    }
     p {
-        margin-left: 3%;
-        margin-top: 15%;
-        width: 20em;
+         width: 21em;
         font-size: 0.8em;
         line-height: 20px;
         text-align: center;
     }
+    .inner > p {
+        margin-top: 15%;
+    }
 .form {
-    padding-left: 10%;
+    padding-left: 4%;
     margin-top: 15%;
 }
     .email {
         /* margin-top: 20%; */
-        height: 2.6em;
-        width: 15em;
+        height: 3em;
+        width: 19em;
 
     
     }
     .boton {
         /* margin-top: 10%; */
-        height: 2.7em;
+        height: 3.1em;
         width: 4.5em;
         position:absolute;
-        margin-left: 12em;
+        margin-left: 15em;
     }
-  }
+#error {
+    font-size: 0.7em;  
+    padding-left: 5em;
+}  
+.attribution {
+    margin-top: 2%;
+    font-size: 0.7em;
+    width: 30em;
+}
+}
