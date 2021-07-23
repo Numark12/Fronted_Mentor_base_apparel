@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
 </head>
@@ -22,10 +23,13 @@
       <h1 class="title2">SOON</h1>
       <p>Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
-        <div class="form">
-      <input type="email" name="" class="email" placeholder="Email Address"><button class="boton"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></button>
-        </div>
-    </div>
+        <form class="form">
+      <input type="email" id="email" name="" class="email" placeholder="Email Address">
+      
+      <button class="boton" id="boton"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></button>
+        </form>
+        <div id="error"></div>
+            </div>
 </hgroup>
   <picture class="imagen"><img src="images\hero-desktop.jpg" alt="girl model"></picture>
 </main>
@@ -34,8 +38,9 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/Numark12" target="_blank">Numark12</a>.
     </p>
   </footer>
+  <script src="app.js"></script>
 </body>
 </html>
