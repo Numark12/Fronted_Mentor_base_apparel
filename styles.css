@@ -141,7 +141,7 @@ input:focus:invalid {
   }
 
 
-  @media(max-width: 550px){
+  @media(max-width: 600px){
 
     .main {
         margin-left: 20%;
